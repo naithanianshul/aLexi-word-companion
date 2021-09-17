@@ -1,0 +1,107 @@
+/* Properties om all HTML elements */
+html
+{
+    background-color: #635f75;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* HEADING - Display */
+.pageHeader
+{
+    display: flex;
+}
+.mainHeader
+{
+    box-sizing: border-box;
+    flex: 1.5;
+    padding-right: 5%;
+}
+.sideImage
+{
+    box-sizing: border-box;
+    flex: 1;
+    margin: auto;
+    text-align: right;
+}
+.sideImage img
+{
+    max-width: 125px;
+    height: auto;
+}
+
+/* NAVIGATION BAR - Display */
+.top-navigation-bar-menu
+{
+    margin: 0%;
+}
+.top-navigation-bar-menu ul
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.top-navigation-bar-menu li
+{
+    width: 100%;
+    list-style: none;
+    flex: 1;
+    background-color: #635f75;
+    box-sizing: border-box;
+}
+.top-navigation-bar-menu a
+{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding: 4% 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION BAR - Colours for the Links */
+.navbar-nav .nav-item .nav-link
+{
+    color: white;
+}
+.navbar-nav .nav-item:hover .nav-link
+{
+    color: black;
+    background-color: #f9f7ff;
+}
+
+@media screen and (max-width: 480px)
+{
+    .sideImage img
+    {
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 991px)
+{
+    .top-navigation-bar
+    {
+        background-color: #635f75;
+        border: 1px solid black;
+    }
+    .top-navigation-bar-menu ul
+    {
+        border: none;
+    }
+    .top-navigation-bar-menu a
+    {
+        padding: 1% 0;
+    }
+}
+
+
+/* MAIN CONTENT (below Navigation Bar) - Display */
+.mainContent
+{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+}

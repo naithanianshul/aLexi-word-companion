@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aLexi: Word Companion</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/page_Word_Companion.css">
+</head>
+
+<body class="container-md px-4 px-lg-5 my-3">
+
+    <div class="pageHeader mb-3 pt-5">
+        <header class="mainHeader">
+            <p class="text-muted">
+                aLexi
+            </p>
+            <h1 class="display-4">Word Companion</h1>
+        </header>
+        
+        <aside class="sideImage">
+            <img src="static/companion_dog_1.png" alt="compadre">
+        </aside>
+    </div>
+
+    <nav class="top-navigation-bar navbar navbar-dark navbar-expand-lg mb-3">
+        <div class="container-fluid">
+            
+            <!-- If you want to nor display the element for screens greater than large = d-lg-none -->
+            <a class="navbar-brand d-lg-none" href="#">Navigation Menu</a>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="top-navigation-bar-menu collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="word_companion.html">Word Companion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="flash_cards.html">Flash Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mainContent row">
+        <div class="col-12">
+            <article>
+                <p class="wordCompanionInstruction">
+                    <em>Enter Word and add/edit its meaning, synonyms and connotations.</em>
+                </p>
+            </article>
+            
+            <div class="formContent">
+                                    
+                <form class="wcForm">
+
+                    <p>
+                        <div class="wcRow1">
+                            <div class="wmesBox wordBox">
+                                <label for="wordTA">Word</label>
+                                <textarea class="wmsTA" id="wordTA" name="wordTA"></textarea>
+                            </div>
+
+                            <div class="wmesBox meaningBox">
+                                <label for="meaningTA">Meaning</label>
+                                <textarea class="wmsTA" id="meaningTA" name="meaningTA"></textarea>
+                            </div>
+                        
+                            <div class="wmesBox exampleBox">
+                                <label for="exampleTA">Example</label>
+                                <textarea class="wmsTA" id="exampleTA" name="exampleTA"></textarea>
+                            </div>
+
+                            <div class="wmesBox synonymsBox">
+                                <label for="synonymsTA">Synonyms</label>
+                                <textarea class="wmsTA" id="synonymsTA" name="synonymsTA"></textarea>
+                            </div>
+                        </div>
+                    </p>
+
+                    <p>
+                        <div class="connotationBox wcRow2 btn-group col-12" role="group" aria-label="Basic radio toggle button group">
+                            <div class="connRadio connotation_negative">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="btnradio1">Negative</label>
+                            </div>
+                          
+                            <div class="connRadio connotation_neutral">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                <label class="btn btn-outline-warning" for="btnradio2">Neutral</label>
+                            </div>
+                          
+                            <div class="connRadio connotation_positive">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                                <label class="btn btn-outline-success" for="btnradio3">Positive</label>
+                            </div>
+                        </div>
+                    </p>
+
+                    <p>
+                        <div class="buttonBox">
+                            <input class="addBtn" type="submit" value="Add">
+                            <input class="searchBtn" type="submit" value="Search">
+                            <input class="clearBtn" type="submit" value="Clear">
+                            <input class="deleteBtn" type="submit" value="Delete">
+                        </div>
+                    </p>
+                    
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bottomNote border-top pt-4 pb-5">
+        <p class="small text-muted"><strong>Note:</strong> Project under developement.</p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>

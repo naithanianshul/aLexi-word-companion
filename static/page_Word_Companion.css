@@ -1,0 +1,148 @@
+/* Importing Main Style */
+@import "../static/main_style.css";
+
+.wordCompanionInstruction
+{
+    text-align: center;
+    font-size: 93%;
+}
+
+.wcForm
+{
+    width: 100%;
+}
+.wcRow1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #635f75;
+    margin-bottom: 2%;
+}
+.wmesBox
+{
+    flex: 1;
+    width: 100%;
+    margin: 0.5% 1%;
+    box-sizing: border-box;
+}
+.wmsTA
+{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+.wcRow2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #635f75;
+}
+
+.connRadio
+{
+    flex: 1;
+    margin: 0.5%;
+    text-align: center;
+}
+
+.connRadio label
+{
+    font-size: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 4% 0;
+}
+
+
+.buttonBox
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttonBox input
+{
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+    display: inline-block;
+    border: 1px solid black;
+    flex: 1;
+    margin: 1%;
+    padding: 1% 0;
+}
+
+@media screen and (max-width: 555px)
+{
+    .buttonBox input
+    {
+        padding: 4%;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .wcRow1
+    {
+        flex-direction: column;
+        margin-bottom: 4%;
+    }
+    .wmsTA
+    {
+        width: 98%;
+    }
+    
+    .wcRow2
+    {
+        display: block;
+    }
+    .connRadio label
+    {
+        padding: 3% 0;
+    }
+    
+    .buttonBox
+    {
+        flex-wrap: wrap;
+    }
+    .buttonBox input
+    {
+        flex-basis: 48%;
+    }
+
+}
+
+@media screen and (max-width: 1080px)
+{
+    .wcRow1
+    {
+        flex-wrap: wrap;
+    }
+    .wmesBox
+    {
+        flex-basis: 48%;
+    }
+}
+
+.addBtn:active
+{
+    color: white;
+}
+.searchBtn:active
+{
+    color: white;
+}
+.clearBtn:active
+{
+    color: white;
+}
+.deleteBtn:active
+{
+    color: white;
+}

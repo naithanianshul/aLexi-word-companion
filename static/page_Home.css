@@ -1,0 +1,25 @@
+/* Importing Main Style */
+@import "../static/main_style.css";
+
+.word-of-the-day-box
+{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.word-of-the-day-heading
+{
+    text-align: center;
+    padding: 2% 0;
+    border: 1px solid black;
+    background-color: lightyellow;
+}
+.word-of-the-day
+{
+    color: #4b4859;
+}
+.word-of-the-day-word
+{
+    color: #4b4859;
+    text-decoration: underline;
+}
