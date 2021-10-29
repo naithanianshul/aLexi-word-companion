@@ -1,12 +1,6 @@
 /* Importing Main Style */
 @import "../static/main_style.css";
 
-.wordCompanionInstruction
-{
-    text-align: center;
-    font-size: 93%;
-}
-
 .wcForm
 {
     width: 100%;
@@ -130,19 +124,3 @@
     }
 }
 
-.addBtn:active
-{
-    color: white;
-}
-.searchBtn:active
-{
-    color: white;
-}
-.clearBtn:active
-{
-    color: white;
-}
-.deleteBtn:active
-{
-    color: white;
-}

@@ -1,0 +1,48 @@
+/* Importing Main Style */
+@import "../static/main_style.css";
+
+.word-map-box
+{
+    display: flex;
+    box-sizing: border-box;
+    min-height: 300px;
+}
+.word-map-form
+{
+    flex: 2;
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+.word-map-form input
+{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 1%;
+    padding: 1% 0;
+}
+.word-map-search-button
+{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 1%;
+    padding: 1% 0;
+}
+.word-map-area
+{
+    flex: 3;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 2%;
+}
+/* Less than 900px the WORD MAP AREA drops to the next line*/
+@media screen and (max-width: 991px)
+{
+    .word-map-box
+    {
+        display: block;
+    }
+    .word-map-form
+    {
+        margin-bottom: 2%;
+    }
+}

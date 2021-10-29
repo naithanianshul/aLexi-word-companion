@@ -105,3 +105,29 @@ html
     padding-bottom: 2%;
     box-sizing: border-box;
 }
+
+.page-promt
+{
+    text-align: center;
+    font-size: 93%;
+}
+
+.colour-red
+{
+    background-color: lightcoral;
+}
+.colour-yellow
+{
+    background-color: lightyellow;
+}
+.colour-green
+{
+    background-color: lightgreen;
+}
+
+
+.btn-secondary:active
+{
+    background-color: lightgray;
+    color: black;
+}

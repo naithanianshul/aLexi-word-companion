@@ -1,15 +1,6 @@
 /* Importing Main Style */
 @import "../static/main_style.css";
 
-/* ABOUT - Page Specific Styles */
-
-/* FLASH CARD INSTRUCTION - Text Styling */
-.flashCardInstruction
-{
-    text-align: center;
-    font-size: 93%;
-}
-
 /* FLASH CARD AREA - Structure */
 .flashCardPageBox
 {
@@ -23,7 +14,7 @@
     width: 50%;
     box-sizing: border-box;
     flex-basis: 29%;
-    border: 1px dashed black; 
+    border: 1px dashed black;
 }
 .flashCardBox button
 {
@@ -39,12 +30,13 @@
 }
 .flashCardBox button:hover
 {
-    background-color: #756e8f;
-    color: white;
+    /* Here change background-color as per the connotation of the word */
+    background-color: lightgreen;
+    color: black;
 }
 .flashCardBox button:active
 {
-    background-color: #998fbd;
+    background-color: #f3f0ff;
 }
 
 /* FLASH CARD TABLE - Display*/
