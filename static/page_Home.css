@@ -24,11 +24,25 @@
     text-decoration: underline;
 }
 
-
 .user-wordlist-overview table
 {
-    width: 70%;
+    width: 75%;
 }
+@media screen and (max-width: 767px)
+{
+    .user-wordlist-overview table
+    {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .user-wordlist-overview table
+    {
+        width: 100%;
+    }
+}
+
 .user-wordlist-overview table td
 {
     border: 1px solid black;
