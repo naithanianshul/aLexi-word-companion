@@ -11,9 +11,17 @@
     <link rel="stylesheet" href="static/page_About.css">
 </head>
 
-<body class="container-md px-4 px-lg-5 my-3">
+<body class="container-md px-4 px-lg-5 my-1">
 
-    <div class="pageHeader mb-3 pt-5">
+    <span class="account-logout pt-3">
+        <button type="button" class="btn btn-outline-secondary btn-sm">Log Out</button>
+    </span>
+    
+    <span class="account-logout">
+        <a class="small" href="index.html">Go to Login (temporarily)</a>
+    </span>
+
+    <div class="pageHeader mb-3 pt-4">
         <header class="mainHeader">
             <p class="text-muted">
                 aLexi
@@ -29,7 +37,7 @@
     <nav class="top-navigation-bar navbar navbar-dark navbar-expand-lg mb-3">
         <div class="container-fluid">
             
-            <!-- If you want to nor display the element for screens greater than large = d-lg-none -->
+            <!-- If you want to not display the element for screens greater than large = d-lg-none -->
             <a class="navbar-brand d-lg-none" href="#">Navigation Menu</a>
           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -39,7 +47,7 @@
             <div class="top-navigation-bar-menu collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="home.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="word_companion.html">Word Companion</a>
@@ -62,7 +70,9 @@
 
         <article class="col-12" id="about-accordion">
             <p>
-                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns1">Why did I make aLexi?</button>
+                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns1">
+                    Why did I make aLexi?
+                </button>
             </p>
             <div class="aboutAns collapse show" id="aboutAns1" data-bs-parent="#about-accordion">
                 <p>
@@ -81,46 +91,87 @@
                     positive (Green), negative (Red) or neutral (Blue).
                 </p>
                 <p>
-                    These are the very initial ideas from which is project started.
-                </p>
-                <p>
-                    This approach worked really good for me, and I really hope this project proves effective to everyone that uses this app!
+                    These are the very initial ideas from which this project started.
+                    This approach worked for me, and I hope this project proves effective to everyone that uses this app!
                 </p>
             </div>
 
             <p>
-                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns2">What are the different features of aLexi?</button>
+                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns2">
+                    What are the different features of aLexi?
+                </button>
             </p>
             <div class="aboutAns collapse" id="aboutAns2" data-bs-parent="#about-accordion">
+                There are 3 main pages as you can see on the Navigation.
+                <ul>
+                    <li>Word Companion</li>
+                    - This page lets you input words and their related information. You can also modify or remove the information of a specific word.
+                    <li>Word Maps</li>
+                    - You can search a word in the input field provided and look at its meaning and synonyms. This helps you to develop links and have a better understanding of the word.
+                    <li>Flash Cards</li>
+                    - Here you can put your current vocabulary to the test. Click on the card. It will show you the word. Try to guess its meaning. If you want a hint, just hover over the card and it'll show you its connotation.
+                </ul>
             </div>
 
             <p>
-                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns3">How to build my Wordlist using Word Companion?</button>
+                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns3">
+                    How to build a Wordlist using Word Companion?
+                </button>
             </p>
             <div class="aboutAns collapse" id="aboutAns3" data-bs-parent="#about-accordion">
+                <p>
+                    As you start your preparations, takes notes on words that you want to learn. 
+                </p>
+                <p>
+                    In Word Companion, you must enter the <strong>word</strong> (obviously) along with its <strong>meaning</strong> (obviously), <strong>example</strong> (only if you want to be reminded how to use that word in a sentence), <strong>synonyms</strong> (only if you find other words that are similar or related to it) and its <strong>connotation</strong> (is the word positive, negative or neutral?)
+                </p>
+                <p>
+                    This will help you to create a wordlist after your study sessions, and use your wordlist in Word Maps and Flash Cards!
+                </p>
             </div>
 
             <p>
-                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns4">How to study words from my Wordlist using Word Companion?</button>
+                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns4">
+                    How to study words from Word Maps?
+                </button>
             </p>
             <div class="aboutAns collapse" id="aboutAns4" data-bs-parent="#about-accordion">
+                <p>
+                    There is only 1 input and 1 search button in Word Maps. Enter the word (from your wordlist) to study its related words.
+                </p>
+                <p>
+                    Inside the display box, the word you searched for will appear in large bolds and will be highlighted as per its connotation. The meaning will appear right next to the highlighted word. The synonyms which are mentioned for the word will appear in the first cluster. The synonyms of the synonyms will appear in the second cluster (and synonyms of the synonyms of the synonyms.. you get the point).
+                </p>
             </div>
 
             <p>
-                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns5">How to use the Flash Cards?</button>
+                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns5">
+                    How to use the Flash Cards?
+                </button>
             </p>
             <div class="aboutAns collapse" id="aboutAns5" data-bs-parent="#about-accordion">
+                <p>
+                    When you open the Flash Cards page you will see a button that looks literally like a card. When you click on it, the first word will appear. If you don't know its meaning, hover over the card and it will tell you about the word's connotation. If you still can't guess its meaning, just click on the card again and the meaning along with the word will appear in the table.
+                </p>
+                <p>
+                    Repeat this until you master you master your entire wordlist.
+                </p>
+                <p>
+                    Keep challenging yourself!
+                </p>
             </div>
 
             <p>
-                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns6">What are the future plans for the application? Any new features?</button>
+                <button class="aboutQuesButton" data-bs-toggle="collapse" data-bs-target="#aboutAns6">
+                    What are the future plans for the application? Any new features?
+                </button>
             </p>
             <div class="aboutAns collapse" id="aboutAns6" data-bs-parent="#about-accordion">
                 <p>
                     I actually do plan to develope more features and flexibility in aLexi.
                     <ul>
-                        <li>Word-Links</li>
-                        - The Related Words displayed after a Word search would be links if the definition of that related word word exists.
+                        <li>Words as links in Word Maps</li>
+                        - The Related Words displayed in Word Maps would be links if the data of that related word word exists.
                         <li>More color-coding options for connotations</li>
                         - The user will have an option to select different color-coding sets like 
                             <ul>
@@ -130,15 +181,15 @@
                             </ul>
                         <li>A Word of the day flashcard from your Wordlist</li>
                         - Once you have significant words in your Wordlist, a 'Word of the day' Flashcard will be displayed on your Home.
-                        <li>Saving Wordlists as an Excel or PDF file</li>
+                        <li>Saving Wordlists as a document file</li>
                         - If you want to take the Wordlist offline, you can. Convinient isn't it?
                         <li>Sharing Wordlists</li>
                         - Wouldn't it be nice if instead of creating your Wordlist from 0, you start with someone's previously made Wordlist
                         and develope your own? Or maybe someone already has made a Wordlist specifically for GRE, IELTS or TOEFL?
                         It surely is a great idea to use that and built upon it as per your own personality and learning style.
-                        Change the color-coding, add, delete or modify the words, and make it personal.
-                        Everybody's mind map works on different colour schemes right?
                     </ul>
+                    Change the color-coding, add, delete or modify the words, and make it personal.
+                    Everybody's mind map works on different colour schemes right?
                 </p>
             </div>
             

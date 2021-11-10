@@ -1,0 +1,50 @@
+/* Importing Main Style */
+@import "../static/main_style.css";
+@import "../static/page_About.css";
+
+.login-page
+{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.login-box
+{
+    flex: 5;
+}
+.login-box-side
+{
+    flex: 4;
+    background-color: #635f75;
+    color: white;
+}
+.login-box-side-text
+{
+    padding: 13%;
+}
+.login-box input
+{
+    max-width: 300px;
+}
+.login-button
+{
+    max-width: 200px;
+    width: 33%;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+}
+
+.aboutQuesButton
+{
+    background-color: #635f75;
+    color: white;
+}
+.aboutQuesButton:hover
+{
+    background-color: #f9f7ff;
+    color: black;
+}

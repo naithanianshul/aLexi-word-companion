@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aLexi: Home</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/page_Home.css">
+</head>
+
+<body class="container-md px-4 px-lg-5 my-1">
+
+    <span class="account-logout pt-3">
+        <button type="button" class="btn btn-outline-secondary btn-sm">Log Out</button>
+    </span>
+    
+    <span class="account-logout">
+        <a class="small" href="index.html">Go to Login (temporarily)</a>
+    </span>
+
+    <div class="pageHeader mb-3 pt-4">
+        <header class="mainHeader">
+            <h1 class="display-4">aLexi</h1>
+            <p class="text-muted">
+                Your Word Companion.
+            </p>
+        </header>
+
+        <aside class="sideImage">
+            <img src="static/companion_dog_1.png" alt="compadre">
+        </aside>
+    </div>
+    
+    <nav class="top-navigation-bar navbar navbar-dark navbar-expand-lg mb-3">
+        <div class="container-fluid">
+            
+            <!-- If you want to not display the element for screens greater than large = d-lg-none -->
+            <a class="navbar-brand d-lg-none" href="#">Navigation Menu</a>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="top-navigation-bar-menu collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="word_companion.html">Word Companion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="word_map.html">Word Maps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="flash_cards.html">Flash Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mainContent row">
+
+        <div class="user-wordlist-overview mb-5 align-div-center">
+            <table>
+                <thead>
+                    <th colspan="2">Statistics about your wordlist</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Positive words</td>
+                        <td>512</td>
+                    </tr>
+                    <tr>
+                        <td>Neutral words</td>
+                        <td>128</td>
+                    </tr>
+                    <tr>
+                        <td>Negative words</td>
+                        <td>320</td>
+                    </tr>
+                    <tr>
+                        <td>Words missing their synonyms</td>
+                        <td>64</td>
+                    </tr>
+                    <tr style="background: lightgrey;">
+                        <td>Total words</td>
+                        <td>1024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row">
+            <div class="word-of-the-day-box col-lg-4 mb-3">
+                <div class="card">
+                    <h5 class="word-of-the-day-heading">Word of the Day</h5>
+                    <div class="card-body">
+                    <h5 class="card-title word-of-the-day mb-4">predilection</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Meaning: a special fondness</h6>
+                    <p class="card-text">"She had a <span class="word-of-the-day-word">predilection</span> for small, quiet cafes, where she could sit and read undisturbed"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <article>
+                    <p>
+                        Say hello to <strong>aLexi</strong>!
+                    </p>
+                    <p>
+                        You could be on a journey to expand your vocabulary, maybe on the course of preparation for an exam like GRE, IELTS or TOEFL,
+                        or maybe because you simply want to improve your understanding of the English language.
+                        This application could be the thing that helps you efficiently achieve your goal.
+                    </p>
+                    <p>
+                        <strong>aLexi</strong> will help you build your personal lexicon. You choose which words you want to add to your vocabulary.
+                    </p>
+                    <p>
+                        This application helps you learn and revise words from your own personal wordlist.
+                        It will document every word's meaning, sentence example and word connotation.
+                        Whenever you decide to revise your words, you can search a word or let the app pop up a random word from your wordlist
+                        along with its the meaning, sentence example and related words.
+                        You can transverse the related words and refresh your mind map, or if you are looking for a challenge, use the Flash Cards to test your current memory!
+                    </p>
+                </article>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bottomNote border-top pt-4 pb-5">
+        <p class="small text-muted"><strong>Note:</strong> Project under developement.</p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

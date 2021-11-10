@@ -23,3 +23,14 @@
     color: #4b4859;
     text-decoration: underline;
 }
+
+
+.user-wordlist-overview table
+{
+    width: 70%;
+}
+.user-wordlist-overview table td
+{
+    border: 1px solid black;
+    padding: 0.5% 1%;
+}

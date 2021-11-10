@@ -12,19 +12,19 @@
     flex: 2;
     box-sizing: border-box;
     margin-right: 2%;
+    padding-bottom: 2%;
 }
 .word-map-form input
 {
     box-sizing: border-box;
     width: 100%;
-    margin-bottom: 1%;
+    margin: 2% 0 1% 0;
     padding: 1% 0;
 }
 .word-map-search-button
 {
     box-sizing: border-box;
     width: 100%;
-    margin-bottom: 1%;
     padding: 1% 0;
 }
 .word-map-area

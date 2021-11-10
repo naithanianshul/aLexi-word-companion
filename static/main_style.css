@@ -7,6 +7,22 @@ html
 }
 
 /* HEADING - Display */
+.account-logout
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.account-logout button
+{
+    color: #635f75;
+    border: none;
+    text-decoration: underline;
+}
+.account-logout button:hover
+{
+    background-color: #635f75;
+    text-decoration: none;
+}
 .pageHeader
 {
     display: flex;
@@ -55,7 +71,7 @@ html
     width: 100%;
     display: block;
     text-decoration: none;
-    padding: 4% 0;
+    padding: 10px 0;
     text-align: center;
     box-sizing: border-box;
 }
@@ -130,4 +146,23 @@ html
 {
     background-color: lightgray;
     color: black;
+}
+
+.hidden-labels
+{
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.align-element-center
+{
+    margin: 0 auto;
+    display: block;
+}
+.align-div-center
+{
+    display: flex;
+    justify-content: center;
 }
