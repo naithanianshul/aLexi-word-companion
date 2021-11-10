@@ -21,7 +21,7 @@
 }
 .login-box-side-text
 {
-    padding: 13%;
+    padding-top: 15%;
 }
 .login-box input
 {
@@ -29,7 +29,7 @@
 }
 .login-button
 {
-    max-width: 200px;
+    max-width: 300px;
     width: 33%;
 }
 .row
